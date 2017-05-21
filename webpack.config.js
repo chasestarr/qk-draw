@@ -1,7 +1,8 @@
 const path = require('path');
+require('babel-polyfill');
 
 module.exports = {
-  entry: './src/client/index.js',
+  entry: ['babel-polyfill', './src/client/index.js'],
   output: { filename: './src/public/bundle.js' },
   module: {
     loaders: [
