@@ -1,0 +1,16 @@
+:global body {
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0 0;
+}
+
+.root {
+  float: left;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #569CD6;
+  margin: 0 0;
+  padding-bottom: 30px;
+}

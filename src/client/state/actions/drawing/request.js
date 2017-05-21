@@ -7,11 +7,11 @@ export function request(word) {
   };
 }
 
-export function requestSuccess(drawing) {
+export function requestSuccess(drawings) {
   return {
     type: constants.drawing.REQUEST_SUCCESS,
     payload: {
-      drawing
+      drawings
     }
   };
 }

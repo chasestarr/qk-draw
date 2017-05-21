@@ -1,0 +1,18 @@
+.path path {
+  stroke-dashoffset: 400;
+}
+
+.path path:hover {
+  animation: draw 2s infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 400;
+  }
+
+  to {
+    stroke-dashoffset: 500;
+  }
+}
